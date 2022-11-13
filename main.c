@@ -16,9 +16,9 @@ int main()
         if(ch == -32)
         {
             ch = getch();
-            printf("Extended ASCII is %d -->", ch);
+            printf("Extended ASCII is %d --> \n", ch);
         }
-        else{printf("ASCII of %c is --> %d", ch, ch);}
+        else{printf("ASCII of %c is --> %d \n", ch, ch);}
 
     }while(ch != ENTER);
 
